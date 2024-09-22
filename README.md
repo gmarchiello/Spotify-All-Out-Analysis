@@ -25,17 +25,6 @@ To interact with the Spotify API and retrieve data from these playlists, this pr
 
 For more information on Spotipy, refer to the [Spotipy documentation](https://spotipy.readthedocs.io/en/2.19.0/).
 
-## Mapping Tracks to Macro-Genres
-
-To simplify our analysis, we categorize each track into predefined macro-genres based on their specific genres. This process involves:
-
-1. **Identifying Songs with Unknown Genre**: We check for tracks labeled as "Unknown" and log their track ID, artist name, and song name. This helps pinpoint tracks that require further review.
-  
-2. **Assigning Genres**: For songs previously categorized as "Unknown," we manually research their genres and update the dataset accordingly.
-
-3. **Extracting and Analyzing Unique Genres**: We compile all genres present in the dataset, count their occurrences, and prepare a list of unique genres to streamline subsequent analyses.
-
-
 ## Data Cleaning and Preparation
 
 The data preparation phase involved several key tasks:
